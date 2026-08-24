@@ -1,7 +1,7 @@
 {
-  "name": "frontend",
+  "name": "employe-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,10 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.40"
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.4",
+    "pinia": "^2.2.4",
+    "vue": "^3.4.38",
+    "vue-chartjs": "^5.3.1",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.8",
-    "vite": "^8.2.0"
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.6"
   }
 }
