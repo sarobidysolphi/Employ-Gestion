@@ -1,14 +1,14 @@
 <?php
-// Parametres de connexion a la base de donnees.
-// Adapte host / dbname / user / password a ton environnement local.
+// Parametres de connexion a la base de donnees (MySQL de Laragon).
 $host = "localhost";
+$port = 3307;
 $dbname = "employes_db";
 $user = "root";
 $password = "";
 
 try {
     $pdo = new PDO(
-        "mysql:host={$host};dbname={$dbname};charset=utf8mb4",
+        "mysql:host={$host};port={$port};dbname={$dbname};charset=utf8mb4",
         $user,
         $password,
         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
